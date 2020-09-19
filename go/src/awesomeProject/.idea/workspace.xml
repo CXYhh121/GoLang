@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3cdc7c-79fc-4d1a-b713-57f6f2a8432f" name="Default Changelist" comment="" />
+    <list default="true" id="9a3cdc7c-79fc-4d1a-b713-57f6f2a8432f" name="Default Changelist" comment="Golang basic grammar leaning">
+      <change afterPath="$PROJECT_DIR$/constvalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +37,16 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1hg9vjRvMU6FXy2WaqwsByl6706" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +56,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build variable.go">
     <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -38,9 +69,27 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build constvalue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/constvalue.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build variable.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/variable.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build variable.go" />
         <item itemvalue="Go Build.go build awesomeProject" />
+        <item itemvalue="Go Build.go build constvalue.go" />
       </list>
     </recent_temporary>
   </component>
@@ -48,30 +97,49 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Golang basic grammar leaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Golang basic grammar leaning" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2822" y="643" key="#GOROOT" timestamp="1600482866057">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state x="2822" y="643" key="#GOROOT/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600482866057" />
-    <state width="2510" height="412" key="GridCell.Tab.0.bottom" timestamp="1600497138713">
+    <state width="2508" height="410" key="GridCell.Tab.0.bottom" timestamp="1600507101123">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2510" height="412" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600497138713" />
-    <state width="2510" height="412" key="GridCell.Tab.0.center" timestamp="1600497138712">
+    <state width="2508" height="410" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600507101123" />
+    <state width="2508" height="410" key="GridCell.Tab.0.center" timestamp="1600507101122">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2510" height="412" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600497138712" />
-    <state width="2510" height="412" key="GridCell.Tab.0.left" timestamp="1600497138710">
+    <state width="2508" height="410" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600507101122" />
+    <state width="2508" height="410" key="GridCell.Tab.0.left" timestamp="1600507101121">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2510" height="412" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600497138710" />
-    <state width="2510" height="412" key="GridCell.Tab.0.right" timestamp="1600497138712">
+    <state width="2508" height="410" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600507101121" />
+    <state width="2508" height="410" key="GridCell.Tab.0.right" timestamp="1600507101123">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2510" height="412" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600497138712" />
+    <state width="2508" height="410" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600507101123" />
     <state x="2581" y="359" key="SettingsEditor" timestamp="1600422676614">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state x="2581" y="359" key="SettingsEditor/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600422676614" />
+    <state x="2235" y="320" key="Vcs.Push.Dialog.v2" timestamp="1600497721670">
+      <screen x="1792" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2235" y="320" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600497721670" />
   </component>
 </project>

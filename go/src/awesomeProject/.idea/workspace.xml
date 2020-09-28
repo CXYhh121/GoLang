@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3cdc7c-79fc-4d1a-b713-57f6f2a8432f" name="Default Changelist" comment="GoLang--learning pointer and code structure">
-      <change afterPath="$PROJECT_DIR$/Array_slices.go" afterDir="false" />
+    <list default="true" id="9a3cdc7c-79fc-4d1a-b713-57f6f2a8432f" name="Default Changelist" comment="GoLang--learning array and slice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basictype.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/basictype.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constvalue.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/constvalue.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function.go" beforeDir="false" afterPath="$PROJECT_DIR$/function/function.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/function/pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/string.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure.go" beforeDir="false" afterPath="$PROJECT_DIR$/function/structure.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/Array_slices.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,48 +136,49 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Golang basic grammar leaning" />
     <MESSAGE value="GoLang--learning pointer and code structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="GoLang--learning pointer and code structure" />
+    <MESSAGE value="GoLang--learning array and slice" />
+    <option name="LAST_COMMIT_MESSAGE" value="GoLang--learning array and slice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2822" y="643" key="#GOROOT" timestamp="1600482866057">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state x="2822" y="643" key="#GOROOT/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600482866057" />
-    <state width="2508" height="397" key="GridCell.Tab.0.bottom" timestamp="1601282216208">
+    <state width="2508" height="397" key="GridCell.Tab.0.bottom" timestamp="1601282796503">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state width="1740" height="412" key="GridCell.Tab.0.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1601082631874" />
-    <state width="2508" height="397" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282216208" />
+    <state width="2508" height="397" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282796503" />
     <state width="2508" height="410" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.23.1792.1097@1792.0.2560.1440" timestamp="1600516952514" />
     <state width="2508" height="252" key="GridCell.Tab.0.bottom/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1600678837971" />
-    <state width="2508" height="397" key="GridCell.Tab.0.center" timestamp="1601282216201">
+    <state width="2508" height="397" key="GridCell.Tab.0.center" timestamp="1601282796502">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state width="1740" height="412" key="GridCell.Tab.0.center/0.23.1792.1019@0.23.1792.1019" timestamp="1601082631871" />
-    <state width="2508" height="397" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282216201" />
+    <state width="2508" height="397" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282796502" />
     <state width="2508" height="410" key="GridCell.Tab.0.center/1792.0.2560.1440/0.23.1792.1097@1792.0.2560.1440" timestamp="1600516952513" />
     <state width="2508" height="252" key="GridCell.Tab.0.center/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1600678837971" />
-    <state width="2508" height="397" key="GridCell.Tab.0.left" timestamp="1601282216200">
+    <state width="2508" height="397" key="GridCell.Tab.0.left" timestamp="1601282796501">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state width="1740" height="412" key="GridCell.Tab.0.left/0.23.1792.1019@0.23.1792.1019" timestamp="1601082631848" />
-    <state width="2508" height="397" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282216200" />
+    <state width="2508" height="397" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282796501" />
     <state width="2508" height="410" key="GridCell.Tab.0.left/1792.0.2560.1440/0.23.1792.1097@1792.0.2560.1440" timestamp="1600516952512" />
     <state width="2508" height="252" key="GridCell.Tab.0.left/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1600678837970" />
-    <state width="2508" height="397" key="GridCell.Tab.0.right" timestamp="1601282216203">
+    <state width="2508" height="397" key="GridCell.Tab.0.right" timestamp="1601282796502">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state width="1740" height="412" key="GridCell.Tab.0.right/0.23.1792.1019@0.23.1792.1019" timestamp="1601082631873" />
-    <state width="2508" height="397" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282216203" />
+    <state width="2508" height="397" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282796502" />
     <state width="2508" height="410" key="GridCell.Tab.0.right/1792.0.2560.1440/0.23.1792.1097@1792.0.2560.1440" timestamp="1600516952513" />
     <state width="2508" height="252" key="GridCell.Tab.0.right/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1600678837971" />
     <state x="2581" y="359" key="SettingsEditor" timestamp="1600422676614">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
     <state x="2581" y="359" key="SettingsEditor/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1600422676614" />
-    <state x="2235" y="320" key="Vcs.Push.Dialog.v2" timestamp="1601188279574">
+    <state x="2235" y="320" key="Vcs.Push.Dialog.v2" timestamp="1601282572189">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state x="2235" y="320" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601188279574" />
+    <state x="2235" y="320" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601282572189" />
   </component>
 </project>

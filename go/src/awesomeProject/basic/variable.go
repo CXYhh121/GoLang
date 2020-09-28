@@ -1,4 +1,4 @@
-package main
+package basic
 
 //例4.3 function_calls_function.go
 //输出：GOG 可以看出main函数中的变量作用域是全局，普通函数的作用域是在函数体内

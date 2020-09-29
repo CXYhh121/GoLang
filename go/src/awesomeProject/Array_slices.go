@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //func main() {
 //	var arr1 [5]int
 //	for i := 0; i < len(arr1); i++ {
@@ -143,33 +141,33 @@ import "fmt"
 //}
 
 // 切片的复制与重构 copy_append_slice.go
-func main() {
-	slFrom := []int{1, 2, 3}
-	slTo := make([]int, 10)
-
-	n := copy(slTo, slFrom)
-	fmt.Println(slTo)
-	fmt.Printf("Copy %d elements\n", n)
-
-	sl3 := append(slFrom, 3, 5, 6)
-	fmt.Println(sl3)
-
-	slice1 := []byte{2, 3, 5}
-	sl4 := AppendByte(slice1, 3, 5, 6, 8)
-	fmt.Println(sl4)
-}
-
-//模拟实现append函数
-func AppendByte(slice []byte, data ...byte) []byte {
-	m := len(slice)
-	n := m + len(data)
-	if n > cap(slice) { // if necessary, reallocate
-		// allocate double what's needed, for future growth.
-		newSlice := make([]byte, (n+1)*2)
-		copy(newSlice, slice)
-		slice = newSlice
-	}
-	slice = slice[0:n]
-	copy(slice[m:n], data)
-	return slice
-}
+//func main() {
+//	slFrom := []int{1, 2, 3}
+//	slTo := make([]int, 10)
+//
+//	n := copy(slTo, slFrom)
+//	fmt.Println(slTo)
+//	fmt.Printf("Copy %d elements\n", n)
+//
+//	sl3 := append(slFrom, 3, 5, 6)
+//	fmt.Println(sl3)
+//
+//	slice1 := []byte{2, 3, 5}
+//	sl4 := AppendByte(slice1, 3, 5, 6, 8)
+//	fmt.Println(sl4)
+//}
+//
+////模拟实现append函数
+//func AppendByte(slice []byte, data ...byte) []byte {
+//	m := len(slice)
+//	n := m + len(data)
+//	if n > cap(slice) { // if necessary, reallocate
+//		// allocate double what's needed, for future growth.
+//		newSlice := make([]byte, (n+1)*2)
+//		copy(newSlice, slice)
+//		slice = newSlice
+//	}
+//	slice = slice[0:n]
+//	copy(slice[m:n], data)
+//	return slice
+//}

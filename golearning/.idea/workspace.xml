@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c49f250-6514-4505-b322-f175897477e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/method.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go/src/awesomeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go/src/awesomeProject/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5c49f250-6514-4505-b322-f175897477e4" name="Default Changelist" comment="leaning struct and methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/method.go" beforeDir="false" afterPath="$PROJECT_DIR$/method.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,11 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1iDqCnnHJlvCH3xt3daPJisbqn3" />
@@ -92,22 +96,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leaning struct and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="leaning struct and methods" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2508" height="410" key="GridCell.Tab.0.bottom" timestamp="1601456892411">
+    <state width="2508" height="410" key="GridCell.Tab.0.bottom" timestamp="1602214417436">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="410" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601456892411" />
-    <state width="2508" height="410" key="GridCell.Tab.0.center" timestamp="1601456892410">
+    <state width="2508" height="410" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602214417436" />
+    <state width="2508" height="410" key="GridCell.Tab.0.center" timestamp="1602214417435">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="410" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601456892410" />
-    <state width="2508" height="410" key="GridCell.Tab.0.left" timestamp="1601456892409">
+    <state width="2508" height="410" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602214417435" />
+    <state width="2508" height="410" key="GridCell.Tab.0.left" timestamp="1602214417433">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="410" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601456892409" />
-    <state width="2508" height="410" key="GridCell.Tab.0.right" timestamp="1601456892410">
+    <state width="2508" height="410" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602214417433" />
+    <state width="2508" height="410" key="GridCell.Tab.0.right" timestamp="1602214417436">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="410" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1601456892410" />
+    <state width="2508" height="410" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602214417436" />
+    <state x="2572" y="397" key="Vcs.Push.Dialog.v2" timestamp="1602138718052">
+      <screen x="1792" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2572" y="397" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602138718052" />
   </component>
 </project>

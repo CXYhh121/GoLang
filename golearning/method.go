@@ -68,36 +68,96 @@ import "fmt"
 //}
 
 // Log类型包含日志功能，通过聚合(组合)方式实现
-type Log struct {
-	msg string
+//type Log struct {
+//	msg string
+//}
+//
+////type Customer struct {
+////	Name string
+////	log  *Log
+////}
+//type Customer struct {
+//	Name string
+//	Log
+//}
+//
+//func main() {
+//	//通过聚合方式实现
+//	//cus := new(Customer)
+//	//cus.Name = "Lisa"
+//	//cus.log = new(Log)
+//	//cus.log.msg = "Lisa is my girlfriend!"
+//	//
+//	//// shorter
+//	//cus = &Customer{"zhangweixin", &Log{"1 - this is my best friend!"}}
+//	////
+//	//cus.Log().Add("2 - After me the world will be a better place!")
+//	//fmt.Println(cus.Log())
+//
+//	//通过内嵌方式实现
+//	c := &Customer{"lisa", Log{"1 - this is my best friend!"}}
+//	c.Add("2 - After me the world will be a batter place!")
+//	fmt.Println(c)
+//}
+//
+//func (l *Log) Add(s string) {
+//	l.msg += "\n" + s
+//}
+//
+//func (l *Log) String() string {
+//	return l.msg
+//}
+//
+//func (c *Customer) String() string {
+//	return c.Name + "\nLog: " + fmt.Sprintln(c.Log)
+//}
+
+//多重继承，Go可通过在类型中嵌入所有必要的父类型就可以简单的实现多重继承
+//type Phone struct{}
+//
+//func (p *Phone) call()  string{
+//	return "Ring Ring Ring"
+//}
+//
+//type Camera struct{}
+//
+//func (c *Camera) takePhotos() string {
+//	return "Click"
+//}
+//
+//type CameraPhone struct {
+//	Camera
+//	Phone
+//}
+//
+//func main() {
+//	cp := new(CameraPhone)
+//	fmt.Println("Our new CameraPhone exhibits multiple behaviors.....")
+//	fmt.Println("It exhibits behavior of a Camera: ", cp.takePhotos())
+//	fmt.Println("It exhibits behaviors is a Phone: ", cp.call())
+//}
+
+type Base struct{}
+
+func (Base) Magic() {
+	fmt.Println("base magic")
 }
 
-type Customer struct {
-	Name string
-	log  *Log
+func (sef Base) MoreMagic() {
+	sef.Magic()
+	sef.Magic()
+}
+
+type Voodoo struct {
+	Base
+}
+
+func (Voodoo) Magic() {
+	fmt.Println("voodoo magic")
 }
 
 func main() {
-	cus := new(Customer)
-	cus.Name = "Lisa"
-	cus.log = new(Log)
-	cus.log.msg = "Lisa is my girlfriend!"
-
-	// shorter
-	cus = &Customer{"zhangweixin", &Log{"1 - this is my best friend!"}}
-	//
-	cus.Log().Add("2 - After me the world will be a better place!")
-	fmt.Println(cus.Log())
-}
-
-func (l *Log) Add(s string) {
-	l.msg += "\n" + s
-}
-
-func (l *Log) String() string {
-	return l.msg
-}
-
-func (c *Customer) Log() *Log {
-	return c.log
+	v := new(Voodoo)
+	v.Magic()
+	v.MoreMagic()
 }

@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c49f250-6514-4505-b322-f175897477e4" name="Default Changelist" comment="leaning method and interface.go">
-      <change afterPath="$PROJECT_DIR$/ReadWrite.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect.go" afterDir="false" />
+    <list default="true" id="5c49f250-6514-4505-b322-f175897477e4" name="Default Changelist" comment="leaning reflect and ReadWrite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadWrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/ReadWrite.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,28 +127,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leaning struct and methods" />
     <MESSAGE value="leaning method and interface.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="leaning method and interface.go" />
+    <MESSAGE value="leaning reflect and ReadWrite" />
+    <option name="LAST_COMMIT_MESSAGE" value="leaning reflect and ReadWrite" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2508" height="345" key="GridCell.Tab.0.bottom" timestamp="1602593081450">
+    <state width="2508" height="345" key="GridCell.Tab.0.bottom" timestamp="1602665193826">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="345" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602593081450" />
+    <state width="2508" height="345" key="GridCell.Tab.0.bottom/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602665193826" />
     <state width="2508" height="345" key="GridCell.Tab.0.bottom/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1602506379485" />
-    <state width="2508" height="345" key="GridCell.Tab.0.center" timestamp="1602593081449">
+    <state width="2508" height="345" key="GridCell.Tab.0.center" timestamp="1602665193824">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="345" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602593081449" />
+    <state width="2508" height="345" key="GridCell.Tab.0.center/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602665193824" />
     <state width="2508" height="345" key="GridCell.Tab.0.center/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1602506379484" />
-    <state width="2508" height="345" key="GridCell.Tab.0.left" timestamp="1602593081448">
+    <state width="2508" height="345" key="GridCell.Tab.0.left" timestamp="1602665193823">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="345" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602593081448" />
+    <state width="2508" height="345" key="GridCell.Tab.0.left/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602665193823" />
     <state width="2508" height="345" key="GridCell.Tab.0.left/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1602506379484" />
-    <state width="2508" height="345" key="GridCell.Tab.0.right" timestamp="1602593081449">
+    <state width="2508" height="345" key="GridCell.Tab.0.right" timestamp="1602665193825">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="345" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602593081449" />
+    <state width="2508" height="345" key="GridCell.Tab.0.right/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602665193825" />
     <state width="2508" height="345" key="GridCell.Tab.0.right/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1602506379485" />
     <state width="2508" height="487" key="GridCell.Tab.1.bottom" timestamp="1602496380744">
       <screen x="1792" y="23" width="2560" height="1417" />
@@ -168,10 +167,10 @@
       <screen x="1792" y="23" width="2560" height="1417" />
     </state>
     <state width="2508" height="487" key="GridCell.Tab.1.right/1792.23.2560.1417/0.23.1792.1019@1792.23.2560.1417" timestamp="1602496380744" />
-    <state x="2572" y="397" key="Vcs.Push.Dialog.v2" timestamp="1602214724027">
+    <state x="2572" y="397" key="Vcs.Push.Dialog.v2" timestamp="1602640854128">
       <screen x="1792" y="0" width="2560" height="1440" />
     </state>
-    <state x="2572" y="397" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602214724027" />
+    <state x="2572" y="397" key="Vcs.Push.Dialog.v2/1792.0.2560.1440/0.0.1792.1120@1792.0.2560.1440" timestamp="1602640854128" />
     <state x="2653" y="341" width="838" height="1032" key="search.everywhere.popup" timestamp="1602491191892">
       <screen x="1792" y="23" width="2560" height="1417" />
     </state>
